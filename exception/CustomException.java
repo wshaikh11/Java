@@ -1,7 +1,5 @@
 package org.example.exception;
 
-import java.lang.ref.PhantomReference;
-
 public class CustomException {
     public static void main(String[] args) throws AgeLessThanZeroException {
         validateAge(-3);
